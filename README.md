@@ -1,18 +1,18 @@
 # Laravel Categories
 
-[![Latest Version](https://badgen.net/packagist/v/kodekeep/laravel-categories)](https://packagist.org/packages/kodekeep/laravel-categories)
-[![Software License](https://badgen.net/packagist/license/kodekeep/laravel-categories)](https://packagist.org/packages/kodekeep/laravel-categories)
-[![Build Status](https://img.shields.io/github/workflow/status/kodekeep/laravel-categories/run-tests?label=tests)](https://github.com/kodekeep/laravel-categories/actions?query=workflow%3Arun-tests+branch%3Amaster)
-[![Coverage Status](https://badgen.net/codeclimate/coverage/kodekeep/laravel-categories)](https://codeclimate.com/github/kodekeep/laravel-categories)
-[![Quality Score](https://badgen.net/codeclimate/maintainability/kodekeep/laravel-categories)](https://codeclimate.com/github/kodekeep/laravel-categories)
-[![Total Downloads](https://badgen.net/packagist/dt/kodekeep/laravel-categories)](https://packagist.org/packages/kodekeep/laravel-categories)
+[![Latest Version](https://badgen.net/packagist/v/konceiver/laravel-categories)](https://packagist.org/packages/konceiver/laravel-categories)
+[![Software License](https://badgen.net/packagist/license/konceiver/laravel-categories)](https://packagist.org/packages/konceiver/laravel-categories)
+[![Build Status](https://img.shields.io/github/workflow/status/konceiver/laravel-categories/run-tests?label=tests)](https://github.com/konceiver/laravel-categories/actions?query=workflow%3Arun-tests+branch%3Amaster)
+[![Coverage Status](https://badgen.net/codeclimate/coverage/konceiver/laravel-categories)](https://codeclimate.com/github/konceiver/laravel-categories)
+[![Quality Score](https://badgen.net/codeclimate/maintainability/konceiver/laravel-categories)](https://codeclimate.com/github/konceiver/laravel-categories)
+[![Total Downloads](https://badgen.net/packagist/dt/konceiver/laravel-categories)](https://packagist.org/packages/konceiver/laravel-categories)
 
 This package was created by, and is maintained by [Brian Faust](https://github.com/faustbrian), and provides categories for Laravel Eloquent Models.
 
 ## Installation
 
 ```bash
-composer require kodekeep/laravel-categories
+composer require konceiver/laravel-categories
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ Check [lazychaser/laravel-nestedset](https://github.com/lazychaser/laravel-neste
 
 namespace App;
 
-use KodeKeep\Categories\Concerns\HasCategories;
+use Konceiver\Categories\Concerns\HasCategories;
 use Illuminate\Database\Eloquent\Model;
 
 class Post extends Model
@@ -93,7 +93,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Security
 
-If you discover a security vulnerability within this package, please send an e-mail to hello@kodekeep.com. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within this package, please send an e-mail to hello@konceiver.dev. All security vulnerabilities will be promptly addressed.
 
 ## Credits
 

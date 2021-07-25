@@ -5,17 +5,17 @@ declare(strict_types=1);
 /*
  * This file is part of Laravel Categories.
  *
- * (c) KodeKeep <hello@kodekeep.com>
+ * (c) Konceiver <info@konceiver.dev>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace KodeKeep\Categories\Concerns;
+namespace Konceiver\Categories\Concerns;
 
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
 use Illuminate\Support\Facades\Config;
-use KodeKeep\Categories\Models\Category;
+use Konceiver\Categories\Models\Category;
 
 trait HasCategories
 {
