@@ -9,8 +9,8 @@ jobs:
       fail-fast: true
       matrix:
         os: [ubuntu-latest]
-        php: [7.4]
-        laravel: [6.*]
+        php: [8.0]
+        laravel: [8.*]
         dependency-version: [prefer-stable]
         include:
           - laravel: 8.*
